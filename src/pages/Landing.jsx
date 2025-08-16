@@ -64,7 +64,7 @@ export function Landing() {
     </div>
       <header className="text-center mb-14">
         <h1 className="text-5xl font-extrabold bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text text-transparent">
-          Your Solana AI Assistant
+          Your Trading  Assistant
         </h1>
         <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-lg">
           Explore market data, trading, wallet management, and more.

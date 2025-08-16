@@ -1,4 +1,4 @@
-// components/FeatureMarquee.jsx
+
 import { motion } from "framer-motion";
 
 export default function FeatureMarquee() {
@@ -45,11 +45,11 @@ export default function FeatureMarquee() {
         animate={{ x: ["0%", "-100%"] }}
         transition={{
           repeat: Infinity,
-          duration: 40, // speed
+          duration: 40, 
           ease: "linear",
         }}
       >
-        {/* Original Set */}
+        
         {features.map((feature, i) => (
           <div
             key={i}
@@ -64,7 +64,7 @@ export default function FeatureMarquee() {
           </div>
         ))}
 
-        {/* Duplicate Set */}
+        
         {features.map((feature, i) => (
           <div
             key={`dup-${i}`}

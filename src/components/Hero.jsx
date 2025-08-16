@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import bgImage from "../assets/token-analysis-agent.webp"; // adjust path if needed
+import bgImage from "../assets/token-analysis-agent.webp"; 
 import { useNavigate } from "react-router-dom";
 
 export default function Hero() {
@@ -28,7 +28,7 @@ export default function Hero() {
         </span>
       </div>
 
-      {/* Foreground content */}
+   
       <div className="relative z-10 max-w-3xl mx-auto">
         <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight">
           Your Solana Agent
